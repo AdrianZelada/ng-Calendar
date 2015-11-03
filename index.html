@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ng-Calendar</title>
+    <!--<link rel="stylesheet" href="directive/calendarDirective.css"/>-->
+    <script src="jquery.js"></script>
+    <script src="angular.js"></script>
+    <script src="app.js"></script>
+    <script src="directive/js/calendarDirective.js"></script>
+    <link rel="stylesheet" type="text/css" href="directive/css/calendarDirective.css">
+
+    <style>
+        .holyDay{
+            background: grey;
+        }
+        .holy{
+            background: black;
+            color:white;
+        }         
+        .classOver{
+            background: yellow;
+        }
+        
+        td{
+
+        }
+    </style>
+</head>
+<body ng-app="app">
+    <div ng-controller="main">
+        <calendar-directive days-name="daysName" month-name-calendar="monthName" calendar-size="[3,4]"
+                            select-day="select" holy-days="holy" initial-month="1" model="model"></calendar-directive>
+    </div>
+</body>
+</html>

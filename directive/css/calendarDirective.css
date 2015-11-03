@@ -1,0 +1,66 @@
+.content-month{
+	/*border: 1px black solid;*/
+    /*width: 320px;*/
+    /*height: 120px; */
+}
+
+.event-calendar{
+ 	margin: 0px;
+}
+.cell-event{
+	float:right;
+	background: red;
+	width: 18px ;	
+	height: 18px;
+	border-radius: 50%;
+}
+
+.month{
+	border: 1px black solid;
+}
+.header-month{
+	text-align: center;
+	background: #25BAE4;
+	color:white;
+}
+.th-header{
+	font-size: 11px;
+}
+.dayCss{
+	width: 25px !important;
+	height: 22px !important;
+	text-align: center;		
+	cursor: pointer;	
+/*	border-top:1px solid #AAAAAB;
+	border-left:1px solid #AAAAAB;*/
+	border-radius: 50%;
+	padding-top:3px;
+	-webkit-transition:width 2s linear 1s; /* Safari */
+	transition: width 2s linear 1s;
+}
+.dayNow{
+    background: #21C4CB;
+}
+.table-calendar{
+	border-collapse: collapse;	
+}
+.table-calendar {
+	/*border-left:2px solid #25BAE2;
+	border-right:2px solid #25BAE2;
+	border-bottom:2px solid #25BAE2;*/
+	border:2px solid #25BAE4;	
+}
+
+.cellDay{
+	padding: 0px;
+}
+.dayCss:hover{
+    background: #75D4C2;
+    color:white;
+    /*border-radius: 10px;*/
+}
+
+.dayHoli{
+    background: #C3DEB7;
+    color:white;
+}
